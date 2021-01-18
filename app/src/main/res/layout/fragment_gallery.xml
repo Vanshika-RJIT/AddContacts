@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".ui.gallery.GalleryFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="textStart"
+        android:textColor="#5724B3"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/heading_self_defence"
+        android:layout_height="wrap_content"
+        android:gravity="start" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/first_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/first_point" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/first_sub_heading"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/second_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:scaleType="matrix"
+        android:visibility="visible"
+        app:srcCompat="@drawable/second_point" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/second_sub_heading"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitStart"
+        android:visibility="visible"
+        app:srcCompat="@drawable/second_point_one" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/second_sub_heading_2"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/third_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:scaleType="matrix"
+        android:visibility="visible"
+        app:srcCompat="@drawable/third_point" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/third_sub_heading"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitStart"
+        android:visibility="visible"
+        app:srcCompat="@drawable/third_point_2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/third_sub_heading_2"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/fourth_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/fourth_point_1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/fourth_sub_heading"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/fifth_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/fifth_sub_heading"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/fifth_point" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/fifth_sub_heading_2"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/sixth_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/sixth_sub_heading"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/sixth_point" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/sixth_sub_heading_2"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/seventh_point_self_defence"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/seventh_sub_heading"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/seventh_point" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:text="@string/seventh_sub_heading_2"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+</ScrollView>
